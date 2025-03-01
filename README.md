@@ -1,3 +1,3 @@
 # Domain Placeholders
 
-Domain placeholders for comprezo.io and comperzo.io
+Domain placeholders for [comprezo.io](https://comprezo.io) and [comperzo.io](https://comperzo.io).
