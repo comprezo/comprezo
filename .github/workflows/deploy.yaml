@@ -32,7 +32,7 @@ jobs:
           EOF
 
           rsync -avz --delete \
-            ./src ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:$RELEASE_DIR
+            ./src/* ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:$RELEASE_DIR
 
           ssh ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} << EOF
             ln -sfn $RELEASE_DIR $CURRENT_LINK
