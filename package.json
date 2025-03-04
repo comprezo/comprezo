@@ -1,6 +1,6 @@
 {
    "scripts": {
-      "serve": "browser-sync start --server . --watch --no-open --port 8887"
+      "serve": "browser-sync start --server ./src --watch --no-open --port 8887"
    },
    "devDependencies": {
       "browser-sync": "^3.0.3"
